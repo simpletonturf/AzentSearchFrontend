@@ -1,0 +1,61 @@
+.LandingContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.searchbarContainer {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#searchbar {
+	width: 60vw;
+	padding: 20px 20px;
+	font-size: larger;
+	border-radius: 20vw;
+	border: 1.5px solid grey;
+	color: black;
+}
+#searchbar:focus {
+	outline: none;
+	border: 1.5px solid orange;
+	color: "#36454f";
+}
+
+.filtersContainer {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	width: 50%;
+	border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+#formGroup {
+	display: flex;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.CardsContainer {
+	margin-top: 50px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.02);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}

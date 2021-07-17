@@ -1,0 +1,29 @@
+.CardContainer {
+	padding: 10px 15px 10px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+		0 1px 3px 0 rgba(0, 0, 0, 0.12);
+	width: 300px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.CollegeName {
+	margin: 10px 0 10px 0;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+.Description {
+	margin: 0 0 10px 0;
+	font-size: 15px;
+	color: "#36454f";
+	text-align: justify;
+}
